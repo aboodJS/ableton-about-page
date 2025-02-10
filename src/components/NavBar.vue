@@ -5,7 +5,12 @@ const showBool = ref(false)
 </script>
 
 <template>
-  <nav class="w-screen h-20 flex items-center justify-between">
+  <nav
+    :class="[
+      'w-screen h-20 flex items-center justify-between font-[Atkinson Hyperlegible Next, serif]',
+      { 'border-b-[3px]': !showBool },
+    ]"
+  >
     <div class="flex items-center w-1/2 justify-around">
       <img class="w-40" src="./icons/ableton.ai" alt="" />
       <ul class="flex justify-evenly w-9/12">
@@ -31,7 +36,7 @@ const showBool = ref(false)
       ><a href="#">Log in or register</a>
     </div>
   </nav>
-  <section v-show="showBool" class="h-72 grid content-evenly">
+  <section v-show="showBool" :class="['h-72 grid content-evenly ', { 'border-b-[3px]': showBool }]">
     <div class="w-11/12">
       <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4">More on Ableton.com:</h1>
       <ul class="flex justify-around text-left">
