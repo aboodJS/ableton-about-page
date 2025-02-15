@@ -1,11 +1,17 @@
 <script setup>
 import { ref } from 'vue'
 import NavBar from './components/NavBar.vue'
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
   <NavBar></NavBar>
-  <main class="h-fit grid gap-y-32">
+  <ul class="flex justify-evenly w-72 py-5 font-semibold">
+  <li class="cursor-pointer">About</li>
+  <li class="cursor-pointer">Jobs</li>
+  <li class="cursor-pointer">Apprenticeships</li>
+</ul>
+  <main class="h-fit grid gap-y-32 mb-40">
     <div
       class="h-[530px] w-[930px] left-0 right-0 mx-auto flex justify-center items-center text-[5.3rem] text-orange-700 font-extrabold font-['Atkinson Hyperlegible Next', serif]"
       style="
@@ -62,16 +68,13 @@ import NavBar from './components/NavBar.vue'
     />
     <div class="w-[48%] mx-auto grid gap-y-7">
       <h2 class="text-3xl font-semibold font-['Atkinson Hyperlegible Next', serif]">
-        We believe it takes focus to create truly outstanding instruments. We only work on a few
-        products and we strive to make them great.
+        We’re passionate about what we do, but we’re equally passionate about improving who we are.
       </h2>
-      <p>
+      <p>k
         <p>
-          We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.
-        </p>
+          We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.        </p>
         <p>
-          Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.
-        </p>
+          Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.        </p>
       </p>
     </div>
     <div class="flex items-center justify-evenly relative h-fit">
@@ -81,5 +84,22 @@ import NavBar from './components/NavBar.vue'
       <img class="w-[464px] h-[464px]" src="https://images.pexels.com/photos/5756744/pexels-photo-5756744.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
       </div>
     </div>
+    <div class="w-[48%] mx-auto grid gap-y-7">
+      <h2 class="text-3xl font-semibold font-['Atkinson Hyperlegible Next', serif]">
+        We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
+      </h2>
+      <p>
+        If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.
+      </p>
+    </div>
+    <div class="flex justify-center">
+      <img src="https://images.pexels.com/photos/306088/pexels-photo-306088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[580px] h-[580px]">
+      <div class="w-[580px] h-[580px] bg-[#B1C5FF] flex justify-center items-center">
+      <div class="text-2xl font-semibold w-1/2 grid gap-5"><p>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p><a href="#" class="text-blue-900 flex items-center">See Latest Jobs<i class='bx bx-chevron-right' style='color:#001e3a'></i></a></div>
+
+      </div>
+
+    </div>
   </main>
+ <Footer></Footer>
 </template>
