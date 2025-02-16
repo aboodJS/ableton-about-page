@@ -70,7 +70,7 @@ import Footer from './components/Footer.vue';
       <h2 class="text-3xl font-semibold font-['Atkinson Hyperlegible Next', serif]">
         We’re passionate about what we do, but we’re equally passionate about improving who we are.
       </h2>
-      <p>k
+      <p>
         <p>
           We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.        </p>
         <p>
