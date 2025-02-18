@@ -12,7 +12,7 @@ const showBool = ref(false)
     ]"
   >
     <div class="flex items-center w-1/2 justify-around">
-      <img class="w-40" src="./icons/ableton.ai" alt="" />
+      <h1 class="w-20 font-bold text-xl">abelton</h1>
       <ul class="flex justify-evenly w-9/12">
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Live</li>
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Push</li>
