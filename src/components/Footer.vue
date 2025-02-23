@@ -1,10 +1,14 @@
 <template>
-  <footer class="h-screen border-t-2 grid justify-center content-evenly">
+  <footer
+    class="md:h-screen h-[150vh] border-t-2 grid justify-center content-evenly md:w-full w-fit"
+  >
     <main class="grid w-[85%]">
       <h1 class="text-[45px] h-fit">Ableton</h1>
     </main>
-    <section class="grid grid-cols-3 grid-rows-2 w-[90vw] justify-evenly content-between gap-y-8">
-      <ul class="text-lg">
+    <section
+      class="grid md:grid-cols-3 md:grid-rows-2 md:w-[90vw] w-fit justify-evenly content-between gap-y-8"
+    >
+      <ul class="md:text-lg text-xs">
         <li>Register Live, Push or Move<i class="bx bx-chevron-right"></i></li>
         <li>About Ableton<i class="bx bx-chevron-right"></i></li>
         <li>Jobs<i class="bx bx-chevron-right"></i></li>
@@ -17,32 +21,32 @@
           <i class="bx bxl-discord-alt" style="color: #1b1bd2"></i>
         </li>
       </ul>
-      <ul>
-        <li class="font-semibold">Education</li>
+      <ul class="text-xs md:text-base">
+        <li class="font-semibold sm:text-xs">Education</li>
         <li>Offers for students and teachers<i class="bx bx-chevron-right"></i></li>
         <li>Ableton for the Classroom<i class="bx bx-chevron-right"></i></li>
         <li>Ableton for Colleges and Universities<i class="bx bx-chevron-right"></i></li>
       </ul>
-      <ul>
+      <ul class="text-xs md:text-base">
         <li class="font-semibold">Sign up to our newsletter</li>
         <li>
           Enter your email address to stay up to date with the latest offers, tutorials, downloads,
           surveys and more.
         </li>
 
-        <input class="bg-gray-300 w-80 h-8" type="email" name="" id="" /><button
+        <input class="bg-gray-300 w-[12rem] h-8" type="email" name="" id="" /><button
           class="bg-blue-800 h-8 w-20 text-white"
         >
           Sign Up
         </button>
       </ul>
-      <ul>
+      <ul class="md:text-base text-xs">
         <li class="font-semibold">Community</li>
         <li>Find Ableton User Groups<i class="bx bx-chevron-right"></i></li>
         <li>Find Certified Training<i class="bx bx-chevron-right"></i></li>
         <li>Become a Certified Trainer<i class="bx bx-chevron-right"></i></li>
       </ul>
-      <div>
+      <div class="md:scale-100 scale-90">
         <h1 class="font-semibold">Language and Location</h1>
         <select name="language" id="" class="w-28">
           <option value="English">English</option>
@@ -60,8 +64,8 @@
         </select>
       </div>
     </section>
-    <div class="flex justify-between w-[95vw]">
-      <ul class="flex justify-evenly w-3/5 font-semibold text-sm">
+    <div class="md:flex grid justify-between md:w-[95vw]">
+      <ul class="md:flex grid justify-evenly content-between w-3/5 font-semibold text-sm">
         <li>Contact Us</li>
         <li>Press Resources</li>
         <li>Legal Info</li>
