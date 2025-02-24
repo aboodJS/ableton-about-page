@@ -92,10 +92,10 @@ import Footer from './components/Footer.vue';
         If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.
       </p>
     </div>
-    <div class="flex justify-center">
-      <img src="https://images.pexels.com/photos/306088/pexels-photo-306088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[580px] h-[580px]">
-      <div class="w-[580px] h-[580px] bg-[#B1C5FF] flex justify-center items-center">
-      <div class="text-2xl font-semibold w-1/2 grid gap-5"><p>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p><a href="#" class="text-blue-900 flex items-center">See Latest Jobs<i class='bx bx-chevron-right' style='color:#001e3a'></i></a></div>
+    <div class="flex justify-center max-md:flex-col">
+      <img src="https://images.pexels.com/photos/306088/pexels-photo-306088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="md:w-[580px] md:h-[580px] max-md:w-[70vw] max-md:h-[30vh]">
+      <div class="md:w-[580px] md:h-[580px] bg-[#B1C5FF] flex justify-center items-center max-md:w-[70vw] max-md:h-[30vh]">
+      <div class="text-2xl font-semibold w-1/2 max-md:text-base max-md:w-3/4 grid gap-5 "><p>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p><a href="#" class="text-blue-900 flex items-center">See Latest Jobs<i class='bx bx-chevron-right' style='color:#001e3a'></i></a></div>
 
       </div>
 
