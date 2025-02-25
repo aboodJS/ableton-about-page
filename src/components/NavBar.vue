@@ -13,7 +13,8 @@ const showBool = ref(false)
   >
     <div class="flex items-center w-1/2 justify-around">
       <h1 class="w-20 font-bold text-xl">abelton</h1>
-      <ul class="flex justify-evenly w-9/12">
+      <!-- this is temporary -->
+      <ul class="flex max-md:hidden justify-evenly w-9/12">
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Live</li>
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Push</li>
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Move</li>
@@ -31,7 +32,7 @@ const showBool = ref(false)
         </li>
       </ul>
     </div>
-    <div class="flex items-center justify-around w-[28%]">
+    <div class="flex max-md:hidden items-center justify-around w-[28%]">
       <a href="#" class="text-lg font-bold text-blue-800">Try Live 12 for free</a
       ><a href="#">Log in or register</a>
     </div>
