@@ -13,7 +13,7 @@ import Footer from './components/Footer.vue';
 </ul>
   <main class="h-fit grid gap-y-32 mb-40">
     <div
-      class="h-[530px] w-[930px] max-md:w-[70vw] max-md:text-[3rem] left-0 right-0 mx-auto flex justify-center items-center text-[5.3rem] text-orange-700 font-extrabold font-['Atkinson Hyperlegible Next', serif]"
+      class="h-[530px] w-[930px] max-md:w-[90vw] max-md:text-[3rem] left-0 right-0 mx-auto flex justify-center items-center text-[5.3rem] text-orange-700 font-extrabold font-['Atkinson Hyperlegible Next', serif]"
       style="
         background-image: url('https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg');
         background-size: cover;
@@ -21,7 +21,7 @@ import Footer from './components/Footer.vue';
     >
       Ableton
     </div>
-    <div  class="w-[48%] md:mx-auto grid gap-y-7">
+    <div  class="w-[48%] max-md:w-[70vw] mx-auto max-md:justify-center grid gap-y-7">
       <h2 class="text-3xl max-md:text-base font-semibold font-['Atkinson Hyperlegible Next', serif]">
         We make <a class="text-blue-900" href="#">Live</a>,
         <a class="text-blue-900" href="#">Push</a>, <a class="text-blue-900" href="#">Note</a>,
@@ -48,7 +48,7 @@ import Footer from './components/Footer.vue';
         class="w-[370px] h-[278px] outline-[260px] max-md:w-[270px] max-md:h-[170px] max-md:outline-[120px] outline outline-yellow-200"
       />
     </div>
-    <div class="w-[48%] md:mx-auto grid gap-y-7">
+    <div class="w-[48%] max-md:w-[70vw] mx-auto max-md:justify-center grid gap-y-7">
       <h2 class="text-3xl max-md:text-base font-semibold font-['Atkinson Hyperlegible Next', serif]">
         We believe it takes focus to create truly outstanding instruments. We only work on a few
         products and we strive to make them great.
@@ -66,7 +66,7 @@ import Footer from './components/Footer.vue';
       alt=""
       class="w-[920px] h-[520px] max-md:h-[60vh] max-md:w-[90vw] justify-self-center"
     />
-    <div class="w-[48%] md:mx-auto grid gap-y-7">
+    <div class="w-[48%] max-md:w-[70vw] mx-auto max-md:justify-center grid gap-y-7">
       <h2 class="text-3xl max-md:text-base font-semibold font-['Atkinson Hyperlegible Next', serif]">
         We’re passionate about what we do, but we’re equally passionate about improving who we are.
       </h2>
@@ -84,7 +84,7 @@ import Footer from './components/Footer.vue';
       <img class="w-[464px] h-[464px] max-md:w-[40vw] max-md:h-[40vh]" src="https://images.pexels.com/photos/5756744/pexels-photo-5756744.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
       </div>
     </div>
-    <div class="w-[48%] md:mx-auto grid gap-y-7">
+    <div class="w-[48%] max-md:w-[70vw] mx-auto max-md:justify-center grid gap-y-7">
       <h2 class="text-3xl max-md:text-base font-semibold font-['Atkinson Hyperlegible Next', serif]">
         We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
       </h2>
@@ -92,7 +92,7 @@ import Footer from './components/Footer.vue';
         If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.
       </p>
     </div>
-    <div class="flex justify-center max-md:flex-col">
+    <div class="flex justify-center mx-auto max-md:flex-col">
       <img src="https://images.pexels.com/photos/306088/pexels-photo-306088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="md:w-[580px] md:h-[580px] max-md:w-[70vw] max-md:h-[30vh]">
       <div class="md:w-[580px] md:h-[580px] bg-[#B1C5FF] flex justify-center items-center max-md:w-[70vw] max-md:h-[30vh]">
       <div class="text-2xl font-semibold w-1/2 max-md:text-base max-md:w-3/4 grid gap-5 "><p>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p><a href="#" class="text-blue-900 flex items-center">See Latest Jobs<i class='bx bx-chevron-right' style='color:#001e3a'></i></a></div>
