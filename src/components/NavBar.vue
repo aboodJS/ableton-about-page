@@ -11,8 +11,11 @@ const showBool = ref(false)
       { 'border-b-[3px]': !showBool },
     ]"
   >
-    <div class="flex items-center w-1/2 justify-around">
+    <div class="flex items-center w-1/2 max-md:w-screen justify-around">
       <h1 class="w-20 font-bold text-xl">abelton</h1>
+      <div @click="() => (showBool = !showBool)" class="md:hidden">
+        menu<i :class="['bx bx-chevron-down', { 'rotate-180': showBool }]"></i>
+      </div>
       <!-- this is temporary -->
       <ul class="flex max-md:hidden justify-evenly w-9/12">
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Live</li>
@@ -37,10 +40,16 @@ const showBool = ref(false)
       ><a href="#">Log in or register</a>
     </div>
   </nav>
-  <section v-show="showBool" :class="['h-72 grid content-evenly ', { 'border-b-[3px]': showBool }]">
-    <div class="w-11/12">
+  <section
+    v-show="showBool"
+    :class="[
+      'h-72 max-md:h-[80vh] max-md:bg-blue-800 max-md:text-white max-md:w-screen max-md:overflow-x-hidden grid md:content-evenly ',
+      { 'border-b-[3px]': showBool },
+    ]"
+  >
+    <div class="w-11/12 max-md:">
       <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4">More on Ableton.com:</h1>
-      <ul class="flex justify-around text-left">
+      <ul class="md:flex justify-around text-left">
         <li class="list-none cursor-pointer">Blog</li>
         <li class="list-none cursor-pointer">Ableton for the Classroom</li>
         <li class="list-none cursor-pointer">Ableton for Colleges and Universities</li>
@@ -52,7 +61,7 @@ const showBool = ref(false)
     </div>
     <div>
       <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4">More on Ableton.com:</h1>
-      <div class="flex justify-around">
+      <div class="flex max-md:justify-evenly max-md:overflow-x-scroll">
         <div class="w-72 cursor-pointer">
           <h1 class="font-semibold">Loop</h1>
           <p>Watch Talks, Performances and Features from Ableton's Summit for Music Makers</p>
