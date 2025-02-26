@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="md:h-screen h-[150vh] border-t-2 grid justify-center content-evenly md:w-full w-fit"
+    class="h-screen max-md:h-[125vh] border-t-2 grid justify-center content-evenly max-md:content-start w-full max-md:w-fit"
   >
     <main class="grid w-[85%]">
       <h1 class="text-[45px] h-fit">Ableton</h1>
@@ -27,7 +27,7 @@
         <li>Ableton for the Classroom<i class="bx bx-chevron-right"></i></li>
         <li>Ableton for Colleges and Universities<i class="bx bx-chevron-right"></i></li>
       </ul>
-      <ul class="text-xs md:text-base">
+      <ul class="max-md:text-xs text-base">
         <li class="font-semibold">Sign up to our newsletter</li>
         <li>
           Enter your email address to stay up to date with the latest offers, tutorials, downloads,
@@ -46,7 +46,7 @@
         <li>Find Certified Training<i class="bx bx-chevron-right"></i></li>
         <li>Become a Certified Trainer<i class="bx bx-chevron-right"></i></li>
       </ul>
-      <div class="md:scale-100 scale-90">
+      <div class="scale-100 max-md:scale-90 max-md:mb-5">
         <h1 class="font-semibold">Language and Location</h1>
         <select name="language" id="" class="w-28">
           <option value="English">English</option>
@@ -64,8 +64,8 @@
         </select>
       </div>
     </section>
-    <div class="md:flex grid justify-between md:w-[95vw]">
-      <ul class="md:flex grid justify-evenly content-between w-3/5 font-semibold text-sm">
+    <div class="flex max-md:grid justify-between :w-[95vw]">
+      <ul class="flex max-md:grid justify-evenly content-between w-3/5 font-semibold text-sm">
         <li>Contact Us</li>
         <li>Press Resources</li>
         <li>Legal Info</li>
