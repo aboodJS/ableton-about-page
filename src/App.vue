@@ -40,12 +40,12 @@ import Footer from './components/Footer.vue';
       <img
         src="https://images.pexels.com/photos/5657671/pexels-photo-5657671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt=""
-        class="h-[465px] w-[465px] max-md:h-[200px] max-md:w-[200px] z-10"
+        class="h-[465px] w-[465px] max-md:h-[25vh] max-md:w-[25vw] z-10"
       />
       <img
         src="https://images.pexels.com/photos/2847098/pexels-photo-2847098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt=""
-        class="w-[370px] h-[278px] outline-[260px] max-md:w-[270px] max-md:h-[170px] max-md:outline-[120px] outline outline-yellow-200"
+        class="w-[370px] h-[278px] outline-[260px] max-md:w-[50vw] max-md:h-[15vh] max-md:outline-[70px] outline outline-yellow-200"
       />
     </div>
     <div class="w-[48%] max-md:w-[70vw] mx-auto max-md:justify-center grid gap-y-7">
@@ -77,9 +77,9 @@ import Footer from './components/Footer.vue';
           Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.        </p>
       </p>
     </div>
-    <div class="flex items-center justify-evenly relative h-fit max-md:justify-self-center">
+    <div class="flex items-center justify-evenly max-md:justify-between relative h-fit mx-auto ">
       <div class="h-[650px] w-[740px] bg-purple-500 max-md:h-[50vh] max-md:w-[70vw]"></div>
-      <div class="flex justify-around w-[110%] items-center absolute left-8 max-md:w-[40vw]">
+      <div class="flex justify-around w-[110%] items-center absolute left-8 max-md:w-[40vw] max-md:-left-4">
         <img class="w-[371px] h-[280px] max-md:w-[40vw]" src="https://images.pexels.com/photos/7092351/pexels-photo-7092351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
       <img class="w-[464px] h-[464px] max-md:w-[40vw] max-md:h-[40vh]" src="https://images.pexels.com/photos/5756744/pexels-photo-5756744.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
       </div>
