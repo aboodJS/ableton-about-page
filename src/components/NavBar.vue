@@ -47,7 +47,7 @@ const showBool = ref(false)
       { 'border-b-[3px]': showBool },
     ]"
   >
-    <ul class="grid md:hidden w-9/12 mb-4">
+    <ul class="grid md:hidden w-9/12 mb-4 ml-4 mt-4">
       <li class="p-0 cursor-pointer font-semibold list-none m-0">Live</li>
       <li class="p-0 cursor-pointer font-semibold list-none m-0">Push</li>
       <li class="p-0 cursor-pointer font-semibold list-none m-0">Move</li>
@@ -62,23 +62,25 @@ const showBool = ref(false)
     <div class="w-11/12">
       <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4">More on Ableton.com:</h1>
       <ul class="md:flex justify-around text-left max-md:h-[20vh]">
-        <li class="list-none cursor-pointer max-md:mb-1">Blog</li>
-        <li class="list-none cursor-pointer max-md:mb-1">Ableton for the Classroom</li>
-        <li class="list-none cursor-pointer max-md:mb-1">Ableton for Colleges and Universities</li>
-        <li class="list-none cursor-pointer max-md:mb-1">Certified Training</li>
-        <li class="list-none cursor-pointer max-md:mb-1">About Ableton</li>
-        <li class="list-none cursor-pointer max-md:mb-1">Jobs</li>
-        <li class="list-none cursor-pointer max-md:mb-1">Apprenticeships</li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Blog</li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Ableton for the Classroom</li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">
+          Ableton for Colleges and Universities
+        </li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Certified Training</li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">About Ableton</li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Jobs</li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Apprenticeships</li>
       </ul>
     </div>
     <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4 max-md:-mb-10">
       More on Ableton.com:
     </h1>
     <div
-      class="flex max-md:justify-between max-md:overflow-x-scroll max-md:w-[135%] max-md:text-sm"
+      class="flex w-11/12 md:-ml-6 text-left justify-around max-md:justify-evenly max-md:overflow-x-scroll max-md:w-[132%] max-md:text-xs max-md:ml-4"
     >
       <div class="flex">
-        <div class="w-72 cursor-pointer">
+        <div class="w-64 max-md:w-72 cursor-pointer">
           <h1 class="font-semibold">Loop</h1>
           <p>Watch Talks, Performances and Features from Ableton's Summit for Music Makers</p>
         </div>
