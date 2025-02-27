@@ -43,25 +43,41 @@ const showBool = ref(false)
   <section
     v-show="showBool"
     :class="[
-      'h-72 max-md:h-[80vh] max-md:bg-blue-800 max-md:text-white max-md:w-screen max-md:overflow-x-hidden grid md:content-evenly ',
+      'h-72 max-md:h-[105vh] max-md:bg-blue-800 max-md:text-white max-md:w-screen max-md:overflow-x-hidden grid md:content-evenly ',
       { 'border-b-[3px]': showBool },
     ]"
   >
-    <div class="w-11/12 max-md:">
+    <ul class="grid md:hidden w-9/12 mb-4">
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Live</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Push</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Move</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Note</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Link</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Shop</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Packs</li>
+      <li class="p-0 cursor-pointer font-semibold list-none m-0">Help</li>
+      <a href="#" class="text-lg font-bold text-white">Try Live 12 for free</a
+      ><a href="#">Log in or register</a>
+    </ul>
+    <div class="w-11/12">
       <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4">More on Ableton.com:</h1>
-      <ul class="md:flex justify-around text-left">
-        <li class="list-none cursor-pointer">Blog</li>
-        <li class="list-none cursor-pointer">Ableton for the Classroom</li>
-        <li class="list-none cursor-pointer">Ableton for Colleges and Universities</li>
-        <li class="list-none cursor-pointer">Certified Training</li>
-        <li class="list-none cursor-pointer">About Ableton</li>
-        <li class="list-none cursor-pointer">Jobs</li>
-        <li class="list-none cursor-pointer">Apprenticeships</li>
+      <ul class="md:flex justify-around text-left max-md:h-[20vh]">
+        <li class="list-none cursor-pointer max-md:mb-1">Blog</li>
+        <li class="list-none cursor-pointer max-md:mb-1">Ableton for the Classroom</li>
+        <li class="list-none cursor-pointer max-md:mb-1">Ableton for Colleges and Universities</li>
+        <li class="list-none cursor-pointer max-md:mb-1">Certified Training</li>
+        <li class="list-none cursor-pointer max-md:mb-1">About Ableton</li>
+        <li class="list-none cursor-pointer max-md:mb-1">Jobs</li>
+        <li class="list-none cursor-pointer max-md:mb-1">Apprenticeships</li>
       </ul>
     </div>
-    <div>
-      <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4">More on Ableton.com:</h1>
-      <div class="flex max-md:justify-evenly max-md:overflow-x-scroll">
+    <h1 class="font-semibold text-2xl text-center w-fit ml-7 mb-4 max-md:-mb-10">
+      More on Ableton.com:
+    </h1>
+    <div
+      class="flex max-md:justify-between max-md:overflow-x-scroll max-md:w-[135%] max-md:text-sm"
+    >
+      <div class="flex">
         <div class="w-72 cursor-pointer">
           <h1 class="font-semibold">Loop</h1>
           <p>Watch Talks, Performances and Features from Ableton's Summit for Music Makers</p>
