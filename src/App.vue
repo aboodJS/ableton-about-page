@@ -17,6 +17,7 @@ import Footer from './components/Footer.vue';
       style="
         background-image: url('https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg');
         background-size: cover;
+        background-position: center;
       "
     >
       Ableton
