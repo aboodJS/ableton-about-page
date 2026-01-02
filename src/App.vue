@@ -81,7 +81,7 @@ import Footer from './components/Footer.vue';
     <div class="flex items-center justify-evenly max-md:justify-between relative h-fit mx-auto ">
       <div class="h-[650px] w-[740px] bg-purple-500 max-md:h-[50vh] max-md:w-[70vw]"></div>
       <div class="flex justify-around w-[110%] items-center absolute left-8 max-md:w-[40vw] max-md:-left-4">
-        <img class="w-[371px] h-[280px] max-md:w-[40vw]" src="https://images.pexels.com/photos/7092351/pexels-photo-7092351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img class="w-[371px] h-[280px] max-md:h-[250px]  max-md:w-[65vw]" src="https://images.pexels.com/photos/7092351/pexels-photo-7092351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
       <img class="w-[464px] h-[464px] max-md:w-[40vw] max-md:h-[40vh]" src="https://images.pexels.com/photos/5756744/pexels-photo-5756744.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
       </div>
     </div>
