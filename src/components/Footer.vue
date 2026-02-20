@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="h-screen max-md:h-[125vh] border-t-2 grid justify-center content-evenly max-md:content-start w-full max-md:w-fit"
+    class="h-screen max-md:h-[125vh] border-t-2 grid justify-center content-evenly max-md:content-start w-screen max-md:w-fit"
   >
     <main class="grid w-[85%]">
       <h1 class="text-[45px] h-fit">Ableton</h1>
