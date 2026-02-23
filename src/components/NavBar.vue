@@ -1,5 +1,5 @@
 <script setup>
-import {  ref } from 'vue'
+import { ref } from 'vue'
 
 const showBool = ref(false)
 </script>
@@ -12,12 +12,14 @@ const showBool = ref(false)
     ]"
   >
     <div class="flex items-center w-1/2 max-md:w-screen justify-around">
-      <h1 class="w-20 font-bold text-xl">  <RouterLink to="/">ableton</RouterLink></h1>
+      <h1 class="w-20 font-bold text-xl"><RouterLink to="/">ableton</RouterLink></h1>
       <div @click="() => (showBool = !showBool)" class="md:hidden">
         menu<i :class="['bx bx-chevron-down', { 'rotate-180': showBool }]"></i>
       </div>
       <ul class="flex max-md:hidden justify-evenly w-9/12">
-        <li class="cursor-pointer font-semibold list-none p-0 m-0">Live</li>
+        <li class="cursor-pointer font-semibold list-none p-0 m-0">
+          <RouterLink to="/live">live</RouterLink>
+        </li>
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Push</li>
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Move</li>
         <li class="cursor-pointer font-semibold list-none p-0 m-0">Note</li>
@@ -67,7 +69,9 @@ const showBool = ref(false)
           Ableton for Colleges and Universities
         </li>
         <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Certified Training</li>
-        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">  <RouterLink to="/about">About Ableton</RouterLink></li>
+        <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">
+          <RouterLink to="/about">About Ableton</RouterLink>
+        </li>
         <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Jobs</li>
         <li class="list-none cursor-pointer max-md:mb-1 max-md:ml-4">Apprenticeships</li>
       </ul>
